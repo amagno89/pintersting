@@ -1,6 +1,17 @@
+@import url(http://fonts.googleapis.com/css?family=Nobile:400,700);
+
+$font-family-sans-serif: 'Nobile';
 $body-bg: #d35400;
 $navbar-default-bg: #2c3e50;
 $navbar-default-link-color: #ecf0f1;
 
 
 @import 'bootstrap';
+
+.center {
+	text-align: center
+}
+
+.navbar-brand {
+	font-weight:bold;
+}
